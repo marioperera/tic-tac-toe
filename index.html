@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+ 
+</head>
+<body>
+  <div class="container">
+    <!-- header sections -->
+    <div class="header">
+      <h1>Tic Tac Toe</h1>
+      <h2 id="player"></h2>
+    </div>
+    <!-- controls sections: checkboxes -->
+    <div class="controls">
+      <h3>You're playing against the computer. Choose X or O</h3>
+      <form action="#">
+        <input class="checkBox" type="checkbox" name="xPlayer" value="X">X Player
+        <input class="checkBox" type="checkbox" name="oPlayer" value="O">O Player      
+      </form>
+    </div>
+    <!-- board container -->
+    <div class="boardContainer">
+      <!-- first row -->
+      <div class="row">
+        <div id="0" class="square"  ></div>
+        <div id="1" class="square " ></div>
+        <div id="2" class="square "></div>   
+    </div>    <!-- second row -->
+      <div class="row">
+        <div id="3" class="square"  ></div>
+        <div id="4" class="square " ></div>
+        <div id="5" class="square "></div>   
+    </div>
+      
+      <!-- third row -->
+      <div class="row">
+        <div id="6" class="square "></div>
+        <div id="7" class="square "></div>
+        <div id="8" class="square"></div>   
+    </div>
+    <div class="reset">
+      <a id="resetboard" href="#" onclick="">Reset_board</a>
+    </div>  
+  </div>
+  <script src="main.js"></script>
+  
+</body>
+</html>
